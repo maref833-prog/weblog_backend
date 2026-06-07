@@ -36,3 +36,18 @@
 ---
 
 ## 📁 ساختار پروژه
+backend/
+├── main.py # API endpoints
+├── models.py # مدل‌های دیتابیس
+├── schemas.py # Pydantic schemas
+├── auth.py # احراز هویت
+├── crud.py # عملیات دیتابیس
+├── database.py # اتصال به دیتابیس
+├── upload.py # آپلود فایل
+├── translate.py # ترجمه
+├── config.py # تنظیمات
+├── requirements.txt # وابستگی‌ها
+└── uploads/ # فایل‌های آپلودی
+├── images/
+├── songs/
+└── videos/
